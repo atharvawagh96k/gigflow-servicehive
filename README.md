@@ -35,8 +35,11 @@ This project was developed as part of the **Full Stack Development Internship As
 ---
 
 ## 📂 Project Structure
-- gigflow-servicehive/client/ # Frontend (React + Vite)
-- gigflow-servicehive/server/ # Backend (Node.js + Express)
+
+This repository contains both frontend and backend code:
+
+- `client/` – React frontend
+- `server/` – Express backend
 
 ---
 
