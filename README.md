@@ -45,8 +45,27 @@ This repository contains both frontend and backend code:
 
 ## ⚙️ Environment Variables
 
-Create a `.env` file inside the `server/` directory:
+# Server Configuration
+PORT=5000
+NODE_ENV=development
 
-```env
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
+# Database (placeholder – no real credentials)
+MONGO_URI=mongodb://localhost:27017/gigflow
+
+# Authentication
+JWT_SECRET=this_is_a_dummy_jwt_secret_for_demo_purposes_only
+JWT_EXPIRES_IN=7d
+
+# Frontend URL
+CLIENT_URL=http://localhost:3000
+
+# File Uploads (dummy Cloudinary values)
+CLOUDINARY_CLOUD_NAME=dummy_cloud_name
+CLOUDINARY_API_KEY=1234567890
+CLOUDINARY_API_SECRET=dummy_cloudinary_secret
+
+# Email (dummy values)
+EMAIL_SERVICE=gmail
+EMAIL_USER=dummy@email.com
+EMAIL_PASS=dummy_email_password
+
